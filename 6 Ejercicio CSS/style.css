@@ -1,0 +1,17 @@
+div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.botton::before {
+  content: "Pasa Por encima";
+  font-size:30px;
+}
+.botton:hover {
+  background-color: rgb(17, 211, 17);
+  color: white;
+}
+.botton:hover::before {
+  content: "!Hecho!";
+  font-size: 30px;
+}
